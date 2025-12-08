@@ -1,5 +1,7 @@
 # Constructive Theory of Holographic Mind (CTHM)
-# Author: Kirill Kazakov
+Author: Kirill Kazakov
+
+
 
 ## Axiomatic Core
 
