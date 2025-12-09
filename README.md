@@ -375,6 +375,21 @@ In the long-term stationary regime, this corresponds to a **Gibbs distribution o
 7.  **Creativity** = controlled dynamics of virtual entities $\mathcal V$ (via $B_{\text{virt}}, D_{\text{virt}}$), where birth/fixation of new $\tilde\Psi$ and hyperedges occurs only if
     $$\Delta\mathcal J(\mathcal K) + \alpha C_{\text{complex}}(\mathcal K) < 0$$,
     i.e., the new idea pays for its complexity and reduces the total energy of intelligence.
+    
+
+## Numerical sanity checks
+
+Along with the axiomatic text, this repository includes a Python script that  
+runs a series of toy numerical experiments checking:
+
+- **Axiom 1–2:** role of the Hamiltonian $$H_{\text{final}}(W)$$ and dephasing $$\Sigma$$;
+- **Axiom 3–4:** discrete CW bulk, Dirichlet-to-Neumann operator $$\Lambda(W)$$, and SK-contour projection;
+- **Axiom 5:** variational learning of $$W$$ via a cost functional $$\mathcal{J}$$;
+- **Section 7 (7.1, 7.2–7.4, 7.5):** Gibbs distributions over states and “laws”, and confidence as an energy gap $$\Delta E$$;
+- **Axiom 8:** creative layer with virtual birth–death dynamics driven by $$\Delta \mathcal{J} + \alpha\, C_{\text{complex}}$$.
+
+These are toy models, but they provide an executable sanity check for the internal consistency of the CTHM framework.
+    
 
 
 ## Copyright & License
